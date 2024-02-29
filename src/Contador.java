@@ -11,6 +11,7 @@ public class Contador {
         try {
             // chamando o método contendo a lógica de contagem
             contar(parametroUm, parametroDois);
+            System.out.println("Teste");
 
         } catch (ParametrosInvalidosException exception) {
             // imprimir a mensagem: O segundo parâmetro deve ser maior que o primeiro
